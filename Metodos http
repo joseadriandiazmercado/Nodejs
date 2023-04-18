@@ -1,0 +1,9 @@
+Metodos http
+
+Get - Utilizado para mostrar informacion
+
+POST - Utilizado para enviar informacion
+
+PUT/PATCH - Utilizado para actualizar informacion 
+
+DELETE - Utilizado para eliminar informacion

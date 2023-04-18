@@ -1,0 +1,33 @@
+Instalacion de express
+	npm install express
+Que es express -> Express. js[3] es un framework web mínimo y flexible para
+Node. js (siendo el estándar de facto para servidores web de Node. js)
+que proporciona un conjunto robusto de características para 
+aplicaciones web y móviles.
+
+
+Instalacion de nodemon
+	npm install nodemon
+Que es nodemon -> es un desarrollo programa de utilidad que puede
+monitorear cualquier cambio en su fuente de directorio y reiniciar
+automáticamente su servidor o aplicaciones.
+
+
+Instalacion de Pug -> Template Engine
+	npm install pug
+Que es pug> -> Es un motor de plantillas de NodeJS que nos permite preprocesar
+código HTML de una manera más rápida y sencilla.
+
+
+Instalacion de tailwindcss
+	1. npm install -D tailwindcss autoprefixer postcss postcss-cli
+	2. npx tailwind.css init -p -> crear dos archivos para utilizar tailwind
+	3. cambiar los nombres de los 2 archivos creados con terminacion "cjs"
+Que es tailwindcss -> es una potente herramienta para el desarrollo frontend.
+Está dentro de la clasificación de los frameworks CSS o también llamados
+frameworks de diseño. Permite a los desarrolladores y diseñadores aplicar
+estilos a los sitios web de una manera ágil y optimizada.
+
+
+Instalacion de sequelize(ORM)
+	1.

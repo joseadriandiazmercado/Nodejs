@@ -1,0 +1,5 @@
+1. En la terminal del VS Code ->  "npm init"
+2. Keywords = son MCV, Pug, Tailwind, MySQL, Sequelize
+3. description -> descripcion de lo que sera tu proyecto
+4. nombre del author -> Adrian Diaz
+y con eso se crea el package.json
