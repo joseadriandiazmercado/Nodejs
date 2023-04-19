@@ -13,7 +13,7 @@ import db from './config/db.js'
 //app es la intancia de la aplicacion de express
 const app = express()
 
-//Conexion a la base de datos
+//!!onexion a la base de datos
 try {
     await db.authenticate();
     console.log('Conexion exitosa a la base de datos')

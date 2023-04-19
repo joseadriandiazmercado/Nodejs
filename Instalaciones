@@ -30,4 +30,8 @@ estilos a los sitios web de una manera ágil y optimizada.
 
 
 Instalacion de sequelize(ORM)
-	1.
+	1.npm install sequelize mysql2
+
+
+Instalacion de dotenv -> variable de entorno
+	1.npm i dotenv
