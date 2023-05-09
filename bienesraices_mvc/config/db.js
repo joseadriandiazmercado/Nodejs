@@ -9,7 +9,7 @@ import dotenv from 'dotenv';
 dotenv.config({path: '.env'}) // -> De donde se sacara las variables de entorno que se encuentran abajo
 
 
-const db = new Sequelize(process.env.BD_NOMBRE, process.env.BD_USER,process.env.BD_PASS ?? '',{
+const db = new Sequelize(process.env.BD_NOMBRE, process.env.BD_USER, process.env.BD_PASS ?? '',{
         host: process.env.BD_HOST,
         port: 3306,
         dialect:'mysql', // -> puede ser postgress, mariadb, etc

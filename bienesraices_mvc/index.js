@@ -13,9 +13,20 @@ import db from './config/db.js'
 //app es la intancia de la aplicacion de express
 const app = express()
 
-//!!onexion a la base de datos
+//!!Habilitar lectura de datos de formularios
+//Poder recibir los req en los controladores
+//Toma los parametros desde "name" en el html
+app.use(express.urlencoded({extended: true}))
+
+
+
+//!!Conexion a la base de datos
 try {
     await db.authenticate();
+    //db.sync(); -> creacion de las tablas en la base de datos
+    //Siempre y cuando se haga correcto la conexcion
+    //Y la creara cuando esta no exista
+    db.sync();
     console.log('Conexion exitosa a la base de datos')
 } catch (error) {
     console.log('Conexion incompleta a la base de datos')

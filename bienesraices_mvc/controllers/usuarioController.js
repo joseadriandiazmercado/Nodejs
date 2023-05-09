@@ -1,3 +1,5 @@
+import Usuario from "../models/Usuario.js";
+
 
 
 const formularioLogin = (req,res) => {
@@ -12,7 +14,15 @@ const formularioLogin = (req,res) => {
 const formularioRegistro = (req,res) => {
     res.render('auth/registro.pug',{
         pagina: 'Crear Cuenta'
-});
+});}
+
+//La funcion debe ser async porque espera peticion de la base de datos 
+const registrar =async (req,res) => {
+    // console.log(req.body)
+    
+    const usuario = await Usuario.create(req.body)
+    res.json(usuario);
+
     }
 
 const formularioOlvidePassword = (req,res) =>{
@@ -22,9 +32,9 @@ const formularioOlvidePassword = (req,res) =>{
     })
 }
 
-
     export {
         formularioLogin,
         formularioRegistro,
+        registrar,
         formularioOlvidePassword
     }
