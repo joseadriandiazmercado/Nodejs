@@ -14,6 +14,7 @@ const router = express.Router();
 //res === es la respuesta del servidor
 
 //!!DIferentes links
+//!Links que se colocan es postman
 router.get('/login', formularioLogin)
 
 router.get('/registro', formularioRegistro)
@@ -22,24 +23,5 @@ router.post('/registro', registrar)
 
 router.get('/olvide-password',formularioOlvidePassword)
 
-
-
-// router.get('/nosotros', (req,res) => {
-//     //.send para mandar texto plano a la respuesta
-//     res.send('Informacion de nosotros');
-// })
-
-
-//Rutas con el mismo path
-// router.route('/')
-//     //Se manda a llamar esta ruta cuando la peticion es de tipo GET
-//     .get(function(req,res){
-//         res.json({ msg: 'Hola mundo en express'})
-//     })
-//     //Se manda a llamar esta ruta cuando la peticion es de tipo POST
-//     .post(function(req,res){
-//         //.send para mandar texto plano a la respuesta
-//         res.json({msg: 'Respuesta de tipo POST'});
-//     })
 
 export default router;

@@ -13,6 +13,7 @@ import db from './config/db.js'
 //app es la intancia de la aplicacion de express
 const app = express()
 
+console.log(router);
 //!!Habilitar lectura de datos de formularios
 //Poder recibir los req en los controladores
 //Toma los parametros desde "name" en el html

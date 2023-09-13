@@ -1,0 +1,1 @@
+Los helpers son funciones que se pueden utilizar en direfentes partes del arbol de componentes

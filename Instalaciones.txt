@@ -35,3 +35,9 @@ Instalacion de sequelize(ORM)
 
 Instalacion de dotenv -> variable de entorno
 	1.npm i dotenv
+
+Instalacion de express-validator
+	1.npm i express-validator
+
+Instalacion de nodemailer -> confirmacion de correos
+	1.npm i nodemailer
